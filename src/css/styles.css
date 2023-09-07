@@ -14,14 +14,8 @@
 @import url('./signup.css');
 @import url('./reviews.css');
 @import url('./footer.css');
+@import url('./variables.css');
 
-:root {
-  --white: #fff;
-  --black: #121212;
-  --brown: #bea69e;
-  --grey: #1d1d1d;
-  --fonts-sans: 'DM Sans', sans-serif;
-}
 body {
   color: var(--white);
   background-color: var(--black);

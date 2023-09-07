@@ -128,7 +128,7 @@
 .hero .container {
   padding-bottom: 80px;
 }
-@media screen and (min-width: 320px) and (max-width: 346px) {
+@media screen and (min-width: 320px) and (max-width: 331px) {
   .hero-block {
     margin-bottom: 12px;
   }
@@ -143,9 +143,6 @@
     padding: 64px 0 0 32px;
     width: 704px;
     height: 900px;
-  }
-  .hero {
-    padding-bottom: 100px;
   }
   .hero-main-text {
     max-width: 517px;
@@ -175,6 +172,7 @@
   .hero-people-photo {
     width: 54px;
     height: 54px;
+    max-width: 100px;
   }
   .hero-list {
     width: 135px;
@@ -211,13 +209,16 @@
     margin: 0 155px 0 155px;
   }
   .hero-block {
-    width: 418px;
+    width: 398px;
     height: 56px;
     margin: 0;
     margin-bottom: 40px;
   }
   .hero-div-strilka {
     height: 30px;
+  }
+  .hero .container {
+    padding-bottom: 150px;
   }
 }
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -237,12 +238,13 @@
     font-size: 64px;
     line-height: 4.25rem; /* 106.25% */
     letter-spacing: -0.16rem;
+    height: auto;
   }
   .hero-text {
     margin-bottom: 136px;
   }
   .hero-photo {
-    margin: 0 0 0 20px;
+    margin: 0 auto 0 auto;
     width: 397px;
     height: 520px;
   }

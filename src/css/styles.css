@@ -15,7 +15,6 @@
 @import url('./reviews.css');
 @import url('./footer.css');
 @import url('./variables.css');
-
 body {
   color: var(--white);
   background-color: var(--black);

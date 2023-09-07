@@ -35,6 +35,14 @@ body {
   margin: 0 auto;
   padding: 0 20px;
 }
+.backimage {
+  background-image: url(../img/graphic.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 0 auto;
+  max-width: 375px;
+}
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
            TABLET
@@ -44,6 +52,10 @@ body {
   .container {
     max-width: 768px;
     padding: 0 32px;
+  }
+  .backimage {
+    max-width: 768px;
+    background-image: url(../img/graphix-tablet-min.png);
   }
 }
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -55,5 +67,9 @@ body {
   .container {
     max-width: 1280px;
     padding: 0 100px;
+  }
+  .backimage {
+    max-width: 1280px;
+    background-image: url(../img/graphic-laptop-min.png);
   }
 }

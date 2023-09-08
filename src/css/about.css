@@ -5,25 +5,24 @@
 ₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴ --> */
 @import url('./variables.css');
 
-
 h2,
 p {
-    margin: 0;
+  margin: 0;
 }
 
 ul {
-    margin: 0;
-    padding-left: 0;
+  margin: 0;
+  padding-left: 0;
 }
 
 li {
-    list-style: none;
+  list-style: none;
 }
 
 .list {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 /* img {
@@ -33,80 +32,81 @@ li {
 
 /* mobile */
 .about-container {
-    width: 100%;
-    height: 646px;
+  width: 100%;
+  height: 646px;
 }
 
 .about-title {
-    color: #FFF;
-    font-family: DM Sans;
-    font-size: 28px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 1.14;
-    letter-spacing: -0.04em;
-    margin-bottom: 40px;
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: -0.04em;
+  margin-bottom: 40px;
 }
 
 .about-title-span {
-    color: #BEA69E;
+  color: #bea69e;
 }
 
 .about-photo-box {
-    margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 .about-img {
-    display: flex;
-    width: 209px;
-    height: 335px;
-    transform: rotate(-90deg);
-    margin: 0;
-    margin-left: auto;
-    margin-right: auto;
+  display: flex;
+  width: 209px;
+  height: 335px;
+  transform: rotate(-90deg);
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media only screen and (min-width: 768px) {
-    .about-img {
+  /* .about-img {
         width: 340px;
         height: 704px;
-    }
+    } */
 }
 
+.about-text-box {
+}
 
-.about-text-box {}
-
-.about-list {}
+.about-list {
+}
 
 .about-list-item:not(:last-child) {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
-.about-text-block {}
+.about-text-block {
+}
 
 .about-list-text {
-    color: var(--white, #FFF);
-    font-family: DM Sans;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.29;
-    letter-spacing: -0.02em;
+  color: var(--white, #fff);
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
 }
-
-
-
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
            TABLET
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
-@media screen and (min-width: 768px) {}
+@media screen and (min-width: 768px) {
+}
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
            LAPTOP
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
-@media screen and (min-width: 1280px) {}
+@media screen and (min-width: 1280px) {
+}

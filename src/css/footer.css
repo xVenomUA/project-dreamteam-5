@@ -168,6 +168,7 @@
         letter-spacing: 0.04em;
         padding: 20px 18px;
         height: 60px;
+        border: none;
 }
 
 @media screen and (min-width: 375px) {

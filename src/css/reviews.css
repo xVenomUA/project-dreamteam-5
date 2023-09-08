@@ -94,6 +94,40 @@ padding: 20px;
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 @media screen and (min-width: 768px) {
+    .reviews-six {
+        width: 704px;
+        height: 300px;
+        margin-bottom: 100px;
+    }
+    .reviews-title {
+        font-size: 48px;
+        line-height: 1.12;
+        letter-spacing: -0.02em;
+        margin-bottom: 50px;
+    }
+    .reviews-blok {
+        padding: 0 32px;
+    }
+    .info-mentor {
+        width: 640px;
+        height: 196px;
+    }
+    .reviews-name {
+        line-height: 1.4;
+    }
+    .reviews-title-education {
+        font-size: 14px;
+        line-height: 1.28;
+    }
+    .reviews-paragraf {
+        font-size: 16px;
+        line-height: 1.25;
+    }
+    .reviews-icon {
+        position: absolute;
+        margin-top: 20px;
+        margin-right: 20px;
+    }
 }
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~

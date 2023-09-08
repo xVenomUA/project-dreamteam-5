@@ -12,9 +12,6 @@
 ТУТ ВИ ПИШИТЕ ВСІ СТИЛІ ДЛЯ МОБІЛЬНОЇ ВЕРСІЇ
  */
 .reviews-six {
-max-width: 375px;
-padding-right: 18px;
-padding-left: 22px;
 margin-bottom: 90px;
 }
 .reviews-title {
@@ -27,8 +24,9 @@ margin-bottom: 40px;
 .reviews-blok {
 border-radius: 12px;
 border: 1px solid rgba(255, 255, 255, 0.20);
-margin-right: 20px;
-margin-top: 20px;
+width: 335px;
+height: 244px;
+margin-bottom: 20px;
 }
 .info-mentor {
 display: block;
@@ -74,7 +72,7 @@ gap: 4px;
 }
 
 .icon-star {
-color: #bea69e;
+fill: #bea69e;
 list-style: none;
 }
 .icon-staraa {
@@ -82,13 +80,11 @@ color: #414141;
 color: #fff*20%;
 }
 .reviews-paragraf {
-display: block;
-text-decoration: left;
 font-size: 14px;
 font-weight: 400;
 line-height: 1.28;
 letter-spacing: -0.01em;
-margin: 20px;
+padding: 20px;
 }
 @import url('./variables.css');
 

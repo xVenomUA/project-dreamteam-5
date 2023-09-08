@@ -15,16 +15,19 @@
 @import url('./reviews.css');
 @import url('./footer.css');
 @import url('./variables.css');
+
 body {
   color: var(--white);
   background-color: var(--black);
   font-family: var(--sans);
 }
+
 *,
 *::before,
 *::after {
   box-sizing: border-box;
 }
+
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ~~~~~~~~~~~~~~~~~mobile~~~~~~~~~~~~~~~~ 
@@ -35,6 +38,7 @@ body {
   margin: 0 auto;
   padding: 0 20px;
 }
+
 .backimage {
   background-image: url(../img/graphix-phone-min.png);
   background-repeat: no-repeat;
@@ -43,6 +47,7 @@ body {
   margin: 0 auto;
   max-width: 375px;
 }
+
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
            TABLET
@@ -53,11 +58,13 @@ body {
     max-width: 768px;
     padding: 0 32px;
   }
+
   .backimage {
     max-width: 768px;
     background-image: url(../img/graphix-tablet-min.png);
   }
 }
+
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
            LAPTOP
@@ -68,6 +75,7 @@ body {
     max-width: 1280px;
     padding: 0 100px;
   }
+
   .backimage {
     max-width: 1280px;
     background-image: url(../img/graphic-laptop-min.png);

@@ -103,6 +103,13 @@ color: var(--black, #121212);
               cursor: pointer;
               margin-bottom: 20px;
               display: block;
+              border: none;
+}
+
+.signup-btn:hover,
+.signup-btn:focus {
+       color: var(--brown);
+       background-color: var(--grey);
 }
 
 .signup-check-text {

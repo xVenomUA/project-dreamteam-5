@@ -26,10 +26,9 @@ li {
     padding: 0;
 }
 
-/* img {
-    max-width: 100%;
-    height: auto;
-} */
+img {
+    margin: 0;
+}
 
 /* mobile */
 .about-container {
@@ -52,18 +51,15 @@ li {
     color: #BEA69E;
 }
 
-.about-photo-box {
-    margin-bottom: 40px;
-}
-
 .about-img {
     display: flex;
     width: 209px;
     height: 335px;
-    transform: rotate(-90deg);
+    /* transform: rotate(-90deg); */
     margin: 0;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 40px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -73,19 +69,11 @@ li {
     }
 }
 
-
-.about-text-box {}
-
-.about-list {}
-
 .about-list-item:not(:last-child) {
     margin-bottom: 20px;
 }
 
-.about-text-block {}
-
 .about-list-text {
-    color: var(--white, #FFF);
     font-family: DM Sans;
     font-size: 14px;
     font-style: normal;
@@ -94,7 +82,9 @@ li {
     letter-spacing: -0.02em;
 }
 
-
+.about-section .container {
+    padding-bottom: 80px;
+}
 
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -102,11 +92,59 @@ li {
            TABLET
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
-@media screen and (min-width: 768px) {}
+@media screen and (min-width: 768px) {
+    .about-section .container {
+        padding-bottom: 100px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .about-container {
+        width: 704px;
+        height: 734px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .about-title {
+        font-size: 48px;
+        line-height: 1.13;
+        margin-bottom: 50px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .about-list-text {
+        font-size: 16px;
+        line-height: 1.25;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .about-list {
+        display: flex;
+        align-items: flex-start;
+        column-gap: 40px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .about-list-item {
+        flex-basis: calc((100% - 1 * 40px) / 2);
+    }
+}
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
            LAPTOP
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
-@media screen and (min-width: 1280px) {}
+@media screen and (min-width: 1280px) {
+    .about-section .container {
+        padding-bottom: 150px;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+        {}
+}

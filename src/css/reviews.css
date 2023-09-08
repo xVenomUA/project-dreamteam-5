@@ -3,7 +3,6 @@
           Наталья
 ₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴
 ₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴ --> */
-@import url('./variables.css');
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ~~~~~~~~~~~~~~~~~mobile~~~~~~~~~~~~~~~~ 
@@ -12,6 +11,87 @@
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ТУТ ВИ ПИШИТЕ ВСІ СТИЛІ ДЛЯ МОБІЛЬНОЇ ВЕРСІЇ
  */
+.reviews-six {
+max-width: 375px;
+padding-right: 18px;
+padding-left: 22px;
+margin-bottom: 90px;
+}
+.reviews-title {
+font-size: 28px;
+font-weight: 500;
+line-height: 1.14;
+letter-spacing: -0.02em;  
+margin-bottom: 40px;
+}
+.reviews-blok {
+border-radius: 12px;
+border: 1px solid rgba(255, 255, 255, 0.20);
+margin-right: 20px;
+margin-top: 20px;
+}
+.info-mentor {
+display: block;
+gap: 10px;
+}
+
+.reviews-photo {
+border-radius: 100px;
+background: var(--avatar-user-square-ethan-valdez-neutral-background, url(<path-to-image>), lightgray 50% / cover no-repeat, #E0E0E0);
+}
+.blok-name {
+display: flex; 
+justify-content: left;
+flex-direction: column;
+gap: 4px;
+}
+.reviews-name {
+font-size: 20px;
+font-weight: 500;
+line-height: 1.2;
+}
+.reviews-title-education {
+color: rgba(255, 255, 255, 0.50);
+font-size: 12px;
+font-weight: 400;
+line-height: 1.33;
+letter-spacing: -0.01em;
+}
+.reviews-icon {
+display: flex;
+align-items: center;
+margin-top: 4px;
+margin-right: 86px;
+list-style: none;
+}
+.reviews-icon-one,
+.reviews-icon-two,
+.reviews-icon-three,
+.reviews-icon-four,
+.reviews-icon-five {
+align-items: flex-start;
+gap: 4px;
+}
+
+.icon-star {
+color: #bea69e;
+list-style: none;
+}
+.icon-staraa {
+color: #414141;
+color: #fff*20%;
+}
+.reviews-paragraf {
+display: block;
+text-decoration: left;
+font-size: 14px;
+font-weight: 400;
+line-height: 1.28;
+letter-spacing: -0.01em;
+margin: 20px;
+}
+@import url('./variables.css');
+
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
            TABLET

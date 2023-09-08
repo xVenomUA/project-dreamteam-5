@@ -66,10 +66,10 @@ li {
 }
 
 @media only screen and (min-width: 768px) {
-  /* .about-img {
-        width: 340px;
-        height: 704px;
-    } */
+  .about-img {
+    width: 340px;
+    height: 704px;
+  }
 }
 
 .about-text-box {

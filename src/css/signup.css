@@ -11,15 +11,9 @@
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
 .signup {
-       margin: 80px 0;
+       padding-bottom: 80px;
 }
 
-.signup-container {
-}
-
-.container {}
-
-.signup-content {}
 
 .signup-subtitle {
        color: #FFF;
@@ -58,8 +52,6 @@ color: #BEA69E;
        margin-bottom: 8px;
 }
 
-.signup-wrap {}
-
 .signup-input {
        width: 100%;
        height: 46px;
@@ -73,7 +65,6 @@ color: #BEA69E;
               background-color: transparent;
 }
 
-.textaria-fild {}
 
 .signup-comment {
        width: 100%;
@@ -121,7 +112,6 @@ color: var(--black, #121212);
               width: 100%;
 }
 
-.signup-check-link {}
 
 .signup-photo {
        display: flex;

@@ -4,6 +4,9 @@
 ₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴
 ₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴ --> */
 @import url('./variables.css');
+.courses{
+       padding-bottom: 80px;
+}
 .courses-title {
        font-size: 28px;
        font-weight: 500;
@@ -30,7 +33,6 @@
        display: flex;
        flex-direction: column;
        gap: 20px;
-       margin-bottom: 80px;
 }
 
 .courses-item {
@@ -89,6 +91,9 @@
 background-color: var(--brown);
 }
 @media screen and (min-width: 767.98px) {
+.courses{
+       padding-bottom: 100px;
+}
 .courses-list-title{
        display: flex;
        gap: 58px;
@@ -130,7 +135,7 @@ background-color: var(--brown);
 .courses-text{
        max-width:410px ;
 }
-.courses-list{
-       margin-bottom: 150px;
+.courses{
+       padding-bottom: 150px;
 }
 }

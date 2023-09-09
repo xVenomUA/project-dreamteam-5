@@ -12,87 +12,99 @@
 ТУТ ВИ ПИШИТЕ ВСІ СТИЛІ ДЛЯ МОБІЛЬНОЇ ВЕРСІЇ
  */
 .reviews-six {
-margin-bottom: 90px;
+    margin-bottom: 90px;
 }
+
 .reviews-title {
-font-size: 28px;
-font-weight: 500;
-line-height: 1.14;
-letter-spacing: -0.02em;  
-margin-bottom: 40px;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: -0.02em;
+    margin-bottom: 40px;
 }
+
 .reviews-blok-one {
-border-radius: 12px;
-border: 1px solid rgba(255, 255, 255, 0.20);
-width: 100%;
-height: 244px;
-margin-bottom: 20px;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.20);
+    width: 100%;
+    height: 244px;
+    margin-bottom: 20px;
 }
+
 .reviews-blok-two {
     display: none;
 }
+
 .info-mentor {
-display: flex;
-flex-direction: row;
-gap: 10px;
-margin-left: 20px;
-margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-left: 20px;
+    margin-top: 20px;
 }
 
 .reviews-photo {
-border-radius: 100px;
-background: var(--avatar-user-square-ethan-valdez-neutral-background, url(<path-to-image>), lightgray 50% / cover no-repeat, #E0E0E0);
+    border-radius: 100px;
+    background: var(--avatar-user-square-ethan-valdez-neutral-background, url(<path-to-image>), lightgray 50% / cover no-repeat, #E0E0E0);
 }
+
 .blok-name {
-display: flex; 
-justify-content: left;
-flex-direction: column;
-gap: 4px;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    gap: 4px;
 }
+
 .reviews-name {
-font-size: 20px;
-font-weight: 500;
-line-height: 1.2;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
 }
+
 .reviews-title-education {
-color: rgba(255, 255, 255, 0.50);
-font-size: 12px;
-font-weight: 400;
-line-height: 1.33;
-letter-spacing: -0.01em;
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.33;
+    letter-spacing: -0.01em;
 }
+
 .reviews-icon {
-display: flex;
-align-items: center;
-margin-top: 4px;
-margin-left: 86px;
-list-style: none;
+    display: flex;
+    align-items: center;
+    margin-top: 4px;
+    margin-left: 86px;
+    list-style: none;
 }
+
 .reviews-icon-one,
 .reviews-icon-two,
 .reviews-icon-three,
 .reviews-icon-four,
 .reviews-icon-five {
-align-items: flex-start;
-gap: 4px;
+    align-items: flex-start;
+    gap: 4px;
 }
 
 .icon-star {
-fill: #bea69e;
-list-style: none;
+    fill: #bea69e;
+    list-style: none;
 }
+
 .icon-staraa {
-color: #414141;
-fill: #fff; 
-fill: rgba(255, 255, 255, 0.20);
+    color: #414141;
+    fill: #fff;
+    fill: rgba(255, 255, 255, 0.20);
 }
+
 .reviews-paragraf {
-font-size: 14px;
-font-weight: 400;
-line-height: 1.28;
-letter-spacing: -0.01em;
-padding: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.28;
+    letter-spacing: -0.01em;
+    padding: 20px;
 }
+
 @import url('./variables.css');
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -105,12 +117,14 @@ padding: 20px;
         width: 100%;
         margin-bottom: 100px;
     }
+
     .reviews-title {
         font-size: 48px;
         line-height: 1.12;
         letter-spacing: -0.02em;
         margin-bottom: 50px;
     }
+
     .reviews-blok-one {
         padding: 0 32px;
     }
@@ -119,20 +133,25 @@ padding: 20px;
         line-height: 1.4;
         flex-wrap: wrap;
     }
+
     .reviews-title-education {
         font-size: 14px;
         line-height: 1.28;
     }
+
     .reviews-paragraf {
         font-size: 16px;
         line-height: 1.25;
     }
+
     .reviews-icon {
         position: absolute;
+        transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
         margin-top: 20px;
         margin-right: 20px;
     }
 }
+
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
            LAPTOP
@@ -149,16 +168,16 @@ padding: 20px;
         margin-left: 118px;
         margin-bottom: 175px;
     }
+
     .reviews-title {
         letter-spacing: -0.04em;
     }
+
     .reviews-page {
         display: flex;
     }
+
     .reviews-icon-two {
         display: block;
-    }
-    .reviews-paragraf {
-        width: 570px;
     }
 }

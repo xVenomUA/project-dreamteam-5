@@ -11,15 +11,34 @@
       </h2>
       <div class="about-img-text-box">
         <div class="about-img-box">
-          <img
-            class="about-img"
-            srcset="./img/camera-min.png 1x, ./img/camera2x-min.png 2x"
-            src="./img/camera-min.png 1x"
-            width="209"
-            height="335"
-            alt="photo camera lens"
-            loading="lazy"
-          />
+          <picture>
+            <!-- Desktop screen -->
+            <source
+              media="(min-width: 1200px)"
+              srcset="./images/ 1x, ./images/ 2x"
+              type="image/jpg"
+            />
+            <!-- Tablet screen -->
+            <source
+              media="(min-width: 768px)"
+              srcset="./images/ 1x, ./images/ 2x"
+              type="image/jpg"
+            />
+            <!-- Mobile screen -->
+            <source
+              media="(max-width: 767px)"
+              srcset="./img/camera-min.png 1x, ./img/camera2x-min.png 2x"
+              type="image/jpg"
+            />
+            <img
+              class="about-img"
+              src="./img/camera-min.png 1x"
+              width="209"
+              height="335"
+              alt="photo camera lens"
+              loading="lazy"
+            />
+          </picture>
         </div>
         <div class="about-text-box">
           <ul class="about-list">

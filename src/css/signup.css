@@ -10,6 +10,145 @@
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
+.signup {
+       margin: 80px 0;
+}
+
+.signup-container {
+}
+
+.container {}
+
+.signup-content {}
+
+.signup-subtitle {
+       color: #FFF;
+              font-family: DM Sans;
+              font-size: 28px;
+              font-weight: 500;
+              line-height: 1.14;
+              letter-spacing: -0.04em;
+              margin-bottom: 20px;
+}
+.secondpart-signup-subtitle {
+color: #BEA69E;
+       font-family: DM Sans;
+       font-size: 28px;
+       font-weight: 500;
+       line-height: 1.14;
+       letter-spacing: -0.04em;
+}
+
+.signup-title {
+       color: #FFF;
+              font-family: DM Sans;
+              font-size: 14px;
+              font-weight: 400;
+              line-height: 1.28;
+              letter-spacing: -0.02em;
+              max-width: 295px;
+}
+
+.signup-form {
+       display: block;
+       margin: 40px 0;
+}
+
+.signup-fild {
+       margin-bottom: 8px;
+}
+
+.signup-wrap {}
+
+.signup-input {
+       width: 100%;
+       height: 46px;
+       color: #FFF;
+              font-family: DM Sans;
+              font-size: 14px;
+              line-height: 1.28;
+              padding-left: 18px;
+       border-radius: 12px;
+              border: 1px solid rgba(255, 255, 255, 0.20);
+              background-color: transparent;
+}
+
+.textaria-fild {}
+
+.signup-comment {
+       width: 100%;
+       height: 112px;
+       color: #FFF;
+              font-family: DM Sans;
+              font-size: 14px;
+              line-height: 1.28;
+              padding-left: 18px;
+              border-radius: 12px;
+                     border: 1px solid rgba(255, 255, 255, 0.20);
+                     background-color: transparent;
+                     resize: none;
+}
+
+.signup-btn {
+color: var(--black, #121212);
+       font-family: DM Sans;
+       font-size: 16px;
+       font-weight: 700;
+       line-height: 1.25;
+       text-transform: uppercase;
+       width: 100%;
+       height: 48px;
+       border-radius: 12px;
+              background: var(--white, #FFF);
+              cursor: pointer;
+              margin-bottom: 20px;
+              display: block;
+              border: none;
+}
+
+.signup-btn:hover,
+.signup-btn:focus {
+       color: var(--brown);
+       background-color: var(--grey);
+}
+
+.signup-check-text {
+       color: rgba(255, 255, 255, 0.50);
+              font-family: DM Sans;
+              font-size: 12px;
+              font-weight: 400;
+              line-height: 1.33;
+              width: 100%;
+}
+
+.signup-check-link {}
+
+.signup-photo {
+       display: flex;
+       display: none;
+}
+
+.signup-objectiv-photo {
+       background-color: var(--brown);
+       width: 190px;
+       height: 288px;
+       border-radius: 1000px;
+       display: flex;
+       align-items: center;
+       justify-self: center;
+}
+
+.signup-canoncam-photo {
+       background-color: var(--grey);
+       width: 350px;
+       height: 540px;
+       border-radius: 1000px;
+       display: flex;
+       align-items: center;
+       justify-self: center;
+}
+
+
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ТУТ ВИ ПИШИТЕ ВСІ СТИЛІ ДЛЯ МОБІЛЬНОЇ ВЕРСІЇ
  */

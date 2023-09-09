@@ -128,7 +128,7 @@
 .hero .container {
   padding-bottom: 80px;
 }
-@media screen and (min-width: 320px) and (max-width: 331px) {
+@media screen and (min-width: 320px) and (max-width: 345.93px) {
   .hero-block {
     margin-bottom: 12px;
   }

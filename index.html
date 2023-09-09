@@ -19,7 +19,7 @@
       referrerpolicy="no-referrer"
     />
     
-    <link rel="stylesheet" href="/project-dreamteam-5/assets/index-ac153ac0.css">
+    <link rel="stylesheet" href="/project-dreamteam-5/assets/index-1fc2b9ad.css">
   </head>
   <body>
     <div class="backimage">
@@ -164,15 +164,34 @@
       </h2>
       <div class="about-img-text-box">
         <div class="about-img-box">
-          <img
-            class="about-img"
-            srcset="/project-dreamteam-5/assets/camera-min-2e25c199.png 1x, /project-dreamteam-5/assets/camera2x-min-b06367a5.png 2x"
-            src="./img/camera-min.png 1x"
-            width="209"
-            height="335"
-            alt="photo camera lens"
-            loading="lazy"
-          />
+          <picture>
+            <!-- Desktop screen -->
+            <source
+              media="(min-width: 1200px)"
+              srcset="./images/ 1x, ./images/ 2x"
+              type="image/png"
+            />
+            <!-- Tablet screen -->
+            <source
+              media="(min-width: 768px)"
+              srcset="./images/ 1x, ./images/ 2x"
+              type="image/png"
+            />
+            <!-- Mobile screen -->
+            <source
+              media="(max-width: 767px)"
+              srcset="/project-dreamteam-5/assets/camera-min-2e25c199.png 1x, /project-dreamteam-5/assets/camera2x-min-b06367a5.png 2x"
+              type="image/png"
+            />
+            <img
+              class="about-img"
+              src="./img/camera-min.png 1x"
+              width="209"
+              height="335"
+              alt="photo camera lens"
+              loading="lazy"
+            />
+          </picture>
         </div>
         <div class="about-text-box">
           <ul class="about-list">

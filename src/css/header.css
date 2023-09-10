@@ -96,13 +96,13 @@
   /* Dont touch */
   position: fixed;
   top: 0;
-  left: 0;
+  right:0;
   width: 218px;
-    height: 812px;
+  height: 812px;
   background-color: var(--brown);
   z-index: 999;
   margin: 0;
-  transform: translateX(-500%);
+   transform: translateX(500%); 
   transition: transform 250ms ease-in-out;
   display: flex;
   flex-direction: column;
@@ -110,7 +110,7 @@
 
 .menu-container.is-open {
   /* Dont touch */
-  transform: translateX(-1%);
+  transform: translateX(0%);
 }
 
 .menu-container .menu-toggle {

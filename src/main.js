@@ -1,1 +1,1 @@
-import "./js/mobile-menu.js"
+import "../src/js/mobile-menu.js"

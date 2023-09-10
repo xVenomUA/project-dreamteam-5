@@ -43,5 +43,8 @@
 <path fill="" style="fill: " d="M30 10L10 30" stroke="#121212" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
 <path fill="" style="fill: " d="M10 10L30 30" stroke="#121212" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
 </symbol>
+<symbol id="hero-star" viewBox="0 0 20 20">
+<path fill="" style="fill: " d="M10 1.66667L12.575 6.88334L18.3334 7.72501L14.1667 11.7833L15.15 17.5167L10 14.8083L4.85002 17.5167L5.83335 11.7833L1.66669 7.72501L7.42502 6.88334L10 1.66667Z" stroke="#121212" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+</symbol>
 </defs>
 </svg>

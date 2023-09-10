@@ -26,7 +26,7 @@
     display: flex;
 }
 .reviews-blok-one {
-    display:inline-flexbox;
+    display: inline-block;
     border-radius: 12px;
     border: 1px solid rgba(255, 255, 255, 0.20);
     width: 100%;
@@ -38,6 +38,7 @@
 }
 
 .info-mentor {
+    max-width: 211px;
     display: flex;
     flex-direction: row;
     gap: 10px;
@@ -130,16 +131,19 @@
         letter-spacing: -0.02em;
         margin-bottom: 50px;
     }
-
+  
     .reviews-blok-one {
-        padding: 0 32px;
+        display: inline-block;
+        padding: 20px 32px;
     }
 
     .reviews-name {
         line-height: 1.4;
         flex-wrap: wrap;
     }
-
+    .reviews-photo {
+        margin-bottom: 20px;
+    }
     .reviews-title-education {
         font-size: 14px;
         line-height: 1.28;
@@ -148,12 +152,26 @@
     .reviews-paragraf {
         font-size: 16px;
         line-height: 1.25;
+        margin-top: 20px;
     }
 
     .reviews-icon {
         position: absolute;
-        margin-top: 20px;
-        margin-right: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .icon-star {
+        width: 20px;
+        height: 20px;
+    }
+    .icon-staraa {
+        width: 24px;
+        height: 24px;
+    }
+    .info-mentor>.reviews-icon {
+        top: 20px;
+        right: 20px;
     }
 }
 
@@ -170,7 +188,6 @@
         flex-direction: row;
         align-items: flex-start;
         gap: 50px;
-        margin-left: 118px;
         margin-bottom: 175px;
     }
 

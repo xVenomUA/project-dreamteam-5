@@ -126,6 +126,9 @@ color: var(--black, #121212);
        display: flex;
        align-items: center;
        justify-self: center;
+       padding: 76px 19px 62px;
+       margin-top: 252px;
+
 }
 
 .signup-canoncam-photo {
@@ -136,6 +139,7 @@ color: var(--black, #121212);
        display: flex;
        align-items: center;
        justify-self: center;
+       padding: 156px 50px 88px;
 }
 
 
@@ -148,6 +152,15 @@ color: var(--black, #121212);
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 @media screen and (min-width: 768px) {
+.signup {
+       padding-bottom: 100px;
+       }
+       .signup-title {
+              min-width: 480px;
+       }
+       .signup-content {
+              max-width: 480px;
+       }
 }
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -155,4 +168,13 @@ color: var(--black, #121212);
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 @media screen and (min-width: 1280px) {
+.signup-container {
+       display: flex;
+       gap: 60px;
 }
+.signup-photo {
+       display: flex;
+       gap: 20px;
+       padding-bottom: 38px;
+}
+       }

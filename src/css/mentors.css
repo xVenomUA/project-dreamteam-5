@@ -18,6 +18,7 @@ padding-bottom: 80px;
 
 .mentors-container {
   width: 225px;
+  display: contents;
 }
 
 .mentors-titel {
@@ -39,6 +40,7 @@ padding-bottom: 40px;
        display: flex;
        flex-wrap: wrap;
        gap: 40px;
+       justify-content: center;
 }
 .mentors-content {
      padding-top: 16px;

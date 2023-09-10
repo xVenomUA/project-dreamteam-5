@@ -39,7 +39,7 @@
 <path fill="none" style="fill: " stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.4" d="M24 8l-16 16"></path>
 <path fill="none" style="fill: " stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.4" d="M8 8l16 16"></path>
 </symbol>
-<symbol id="close-icon-x" width="40" height="40" viewBox="0 0 40 40">
+<symbol id="close-icon-x"  viewBox="0 0 40 40">
 <path fill="" style="fill: " d="M30 10L10 30" stroke="#121212" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
 <path fill="" style="fill: " d="M10 10L30 30" stroke="#121212" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
 </symbol>

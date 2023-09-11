@@ -112,7 +112,11 @@
   /* Dont touch */
   transform: translateX(0);
 }
-
+.header-menu-link:hover,
+.header-menu-link:focus {
+  font-weight: 700;
+  transition: 250ms;
+}
 .menu-container .menu-toggle {
   /* Dont touch */
   position: absolute;

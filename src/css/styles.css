@@ -47,6 +47,11 @@ body {
   margin: 0 auto;
   max-width: 375px;
 }
+@media (min-resolution: 192dpi) {
+  .backimage {
+    background-image: url(../img/graphic-phone2x-min.png);
+  }
+}
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~

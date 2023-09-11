@@ -61,12 +61,7 @@
   left: 66px;
   z-index: 1;
 }
-.hero-block {
-  width: 251px;
-  height: 84px;
-  display: flex;
-  margin-bottom: 30px;
-}
+
 .hero-text-happy {
   font-size: 14px;
   font-style: normal;
@@ -76,20 +71,7 @@
   max-width: 67px;
   margin-right: 4px;
 }
-.hero-strilka {
-  display: flex;
-  width: 89px;
-  height: 36px;
-  margin-top: 48px;
-}
-.hero-div-photo {
-  width: 105px;
-}
-.hero-divstars {
-  width: 104px;
-  margin-left: 40px;
-  display: flex;
-}
+
 .hero-starts {
   width: 44px;
   height: 44px;
@@ -118,15 +100,37 @@
   letter-spacing: -0.04rem;
 }
 .hero-photo {
-  display: flex;
   margin: 0 auto;
   width: 259px;
   height: 314px;
   max-width: 100%;
 }
-
 .hero {
   padding-bottom: 80px;
+}
+.hero-block-list {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  height: 44px;
+  margin-bottom: 4px;
+}
+.hero-withstars {
+  display: flex;
+  margin-left: 40px;
+}
+.hero-list-text {
+  display: flex;
+  gap: 4px;
+}
+.hero-strilka-icon {
+  display: flex;
+  align-items: center;
+}
+.hero-block {
+  margin-bottom: 31px;
+  display: flex;
+  height: 84px;
 }
 @media screen and (min-width: 320px) and (max-width: 345.93px) {
   .hero-block {
@@ -220,6 +224,13 @@
   .hero {
     padding-bottom: 100px;
   }
+  .hero-block-list {
+    flex-direction: row;
+    gap: 12px;
+  }
+  .hero-list-text {
+    flex-direction: column;
+  }
 }
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -232,7 +243,9 @@
     width: 1080px;
     height: 600px;
     padding: 80px 50px 0 50px;
-    display: flex;
+  }
+  .hero-block {
+    margin: 0;
   }
   .hero-main-text {
     font-size: 64px;
@@ -250,5 +263,14 @@
   }
   .hero {
     padding-bottom: 150px;
+  }
+  .hero-container {
+    display: flex;
+  }
+  .hero-flex {
+    margin-right: 20px;
+  }
+  .hero-div-people {
+    margin: 0 auto;
   }
 }

@@ -135,9 +135,6 @@
   justify-self: center;
   padding: 156px 50px 88px;
 }
-.signup-input::placeholder {
-  color: black;
-}
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ТУТ ВИ ПИШИТЕ ВСІ СТИЛІ ДЛЯ МОБІЛЬНОЇ ВЕРСІЇ
  */

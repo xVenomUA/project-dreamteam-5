@@ -70,7 +70,7 @@ body {
   }
   @media (min-resolution: 192dpi) {
     .backimage {
-      background-image: url(../img/graphic-phone2x-min.png);
+      background-image: url(../img/graphic-tablet2x-min.png);
     }
   }
 }
@@ -92,7 +92,7 @@ body {
   }
   @media (min-resolution: 192dpi) {
     .backimage {
-      background-image: url(../img/graphic-phone2x-min.png);
+      background-image: url(../img/graphic-laptop2x-min.png);
     }
   }
 }

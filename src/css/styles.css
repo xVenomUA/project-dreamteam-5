@@ -68,6 +68,11 @@ body {
     max-width: 768px;
     background-image: url(../img/graphix-tablet-min.png);
   }
+  @media (min-resolution: 192dpi) {
+    .backimage {
+      background-image: url(../img/graphic-phone2x-min.png);
+    }
+  }
 }
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -84,5 +89,10 @@ body {
   .backimage {
     max-width: 1280px;
     background-image: url(../img/graphic-laptop-min.png);
+  }
+  @media (min-resolution: 192dpi) {
+    .backimage {
+      background-image: url(../img/graphic-phone2x-min.png);
+    }
   }
 }

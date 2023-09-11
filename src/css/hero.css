@@ -125,7 +125,7 @@
   max-width: 100%;
 }
 
-.hero .container {
+.hero {
   padding-bottom: 80px;
 }
 @media screen and (min-width: 320px) and (max-width: 345.93px) {
@@ -217,7 +217,7 @@
   .hero-div-strilka {
     height: 30px;
   }
-  .hero .container {
+  .hero {
     padding-bottom: 100px;
   }
 }
@@ -248,7 +248,7 @@
     width: 397px;
     height: 520px;
   }
-  .hero .container {
+  .hero {
     padding-bottom: 150px;
   }
 }

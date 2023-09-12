@@ -106,7 +106,7 @@
   margin: 0;
   transform: translateX(500%);
   transition: transform 250ms ease-in-out;
-  padding-top: 160px;
+  padding-top: 130px;
   display: flex;
   flex-direction: column;
 }
@@ -231,15 +231,14 @@
 
   .menu-container {
     width: 480px;
-    padding-top:232px;
+    padding-top: 192px;
   }
   .mobile-menu {
     gap: 28px;
   }
-  .header-link{
+  .header-link {
     padding-left: 64px;
   }
-  
 }
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -291,15 +290,13 @@
     justify-content: center;
   }
 
-  .header-logo {
-  }
   .header-sign {
     padding: 16px 84px;
   }
   .menu-container {
     display: none;
   }
-  .header-div{
+  .header-div {
     margin-left: 20px;
   }
 }

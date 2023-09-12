@@ -227,6 +227,7 @@
   .hero-block-list {
     flex-direction: row;
     gap: 12px;
+    margin-bottom: 0;
   }
   .hero-list-text {
     flex-direction: column;

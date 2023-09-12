@@ -291,7 +291,8 @@
   }
 
   .header-sign {
-    padding: 16px 84px;
+    padding: 16px 83px;
+    width: 238px;
   }
   .menu-container {
     display: none;

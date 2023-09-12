@@ -68,7 +68,7 @@
   font-weight: 400;
   line-height: 18px; /* 128.571% */
   letter-spacing: -0.0175rem;
-  max-width: 67px;
+  max-width: 71px;
   margin-right: 4px;
 }
 
@@ -81,10 +81,22 @@
   align-items: center;
   justify-content: center;
   margin-right: 12px;
+  transition: 250ms;
 }
+.hero-starts:hover,
+.hero-starts:focus {
+  width: 50px;
+  height: 50px;
+}
+
 .hero-icon-star {
   fill: var(--brown);
   height: 25px;
+  transition: 250ms;
+}
+.hero-text-happy:hover,
+.hero-text-happy:focus {
+  font-weight: 700;
 }
 .hero-text-reviews {
   color: rgba(255, 255, 255, 0.5);
@@ -231,6 +243,11 @@
   }
   .hero-list-text {
     flex-direction: column;
+  }
+  .hero-starts:hover,
+  .hero-starts:focus {
+    width: 60px;
+    height: 60px;
   }
 }
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~

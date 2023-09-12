@@ -5,46 +5,46 @@
 ₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴ --> */
 @import url('./variables.css');
 
-.adver {
-        overflow: hidden;
-        font-size: 28px;
-        text-transform: uppercase;
-        display: flex;
-        font-style: normal;
-        box-sizing: border-box;
-        border-top: 1px solid rgba(255, 255, 255, 0.20);
-        border-bottom: 1px solid rgba(255, 255, 255, 0.20);
-        justify-content: center;
+.block-a {
+  overflow: hidden;
+  font-size: 28px;
+  text-transform: uppercase;
+  display: flex;
+  font-style: normal;
+  box-sizing: border-box;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  justify-content: center;
 }
 
-.adver-text {
-    color: #BEA69E;
-    line-height: 32px;
-    letter-spacing: -0.56px;
-    flex-shrink: 0;
-    min-width: 100%;
-    padding: 20px 15px;
-    min-width: 100%;
-    white-space: nowrap;
-    animation-name: adverLine;
-    animation-duration: 5s;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
-    text-align: center;
+.block-a-text {
+  color: #bea69e;
+  line-height: 32px;
+  letter-spacing: -0.56px;
+  flex-shrink: 0;
+  min-width: 100%;
+  padding: 20px 15px;
+  min-width: 100%;
+  white-space: nowrap;
+  animation-name: adverLine;
+  animation-duration: 5s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  text-align: center;
 }
 
-.adver-text-span {
-    color: #FFF;
+.block-a-text-span {
+  color: #fff;
 }
 
 @keyframes adverLine {
-    from {
-        transform: translateX(50%);
-    }
+  from {
+    transform: translateX(50%);
+  }
 
-    to {
-        transform: translateX(-50%);
-    }
+  to {
+    transform: translateX(-50%);
+  }
 }
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -60,15 +60,15 @@
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 @media screen and (min-width: 768px) {
-        .adver {
-                font-size: 40px;
-        }
+  .block-a {
+    font-size: 40px;
+  }
 
-        .adver-text {
-                padding: 24px 15px;
-                line-height: 50px;
-                letter-spacing: -0.8px;
-        }
+  .block-a-text {
+    padding: 24px 15px;
+    line-height: 50px;
+    letter-spacing: -0.8px;
+  }
 }
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -76,16 +76,16 @@
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 @media screen and (min-width: 1280px) {
-        .adver {
-                font-size: 59px;
-        }
-        
-        .adver-text {
-                line-height: 64px;
-                letter-spacing: -1.18px;
-        }
+  .block-a {
+    font-size: 59px;
+  }
 
-        .adver-section {
-                padding-bottom: 50px;
-        }
+  .block-a-text {
+    line-height: 64px;
+    letter-spacing: -1.18px;
+  }
+
+  .block-a-section {
+    padding-bottom: 50px;
+  }
 }

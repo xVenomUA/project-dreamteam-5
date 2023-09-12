@@ -2,7 +2,7 @@
 
 Team lead: Pohrebniak Andrian |
 Scrum master: Diana Lastovniank |
-Mentor: Artem Severin | 
+Mentor: Artem Severin  
 
 Members: 
 Pasha Bandrivskii |
@@ -11,4 +11,5 @@ Yulia |
 Julia Kryvobochenko |
 Nataliia |
 Andrii Machula |
+Олександр Дубовий
 

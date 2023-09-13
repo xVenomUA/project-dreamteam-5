@@ -182,6 +182,9 @@
   }
 }
 
+.footer-container .link {
+  transition: 250ms;
+}
 .footer-subscribe-input::placeholder {
   color: var(--black);
 }
@@ -199,14 +202,13 @@
   height: 60px;
   cursor: pointer;
   margin-left: auto;
+  transition: 250ms;
 }
 
 .footer-subscribe-btn:hover,
 .footer-subscribe-btn:focus {
-  border: 1px solid transparent;
-  transition-duration: 250ms;
-  transition: cubic-bezier(0.4, 0, 0.2, 1);
   cursor: pointer;
+  color: var(--brown);
 }
 
 .footer-subscribe-agreement {
